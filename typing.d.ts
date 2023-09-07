@@ -14,3 +14,10 @@ export interface Skill extends sanityBody{
     image: image,
     progress: string,
 }
+
+export interface Experience extends sanityBody{
+    _type: experience,
+    jobtitle: string,
+    companyname: string,
+    
+}
